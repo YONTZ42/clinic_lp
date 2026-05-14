@@ -1,0 +1,248 @@
+@media (max-width: 980px) {
+  .header-nav {
+    display: none;
+  }
+
+  .hero,
+  .flow,
+  .support,
+  .director,
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-illustration {
+    order: -1;
+  }
+
+  .flow-copy {
+    position: static;
+  }
+
+  .about-grid,
+  .oncall-notes {
+    grid-template-columns: 1fr;
+  }
+
+  .soft-card:nth-child(2) {
+    transform: none;
+  }
+
+  .clinic-photo-grid .photo-placeholder:nth-child(1) {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    min-height: 68px;
+    padding: 10px 14px;
+  }
+
+  .brand-symbol {
+    width: 42px;
+    height: 42px;
+  }
+
+  .brand-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 14px;
+  }
+
+  .brand-name {
+    font-size: 0.9rem;
+  }
+
+  .brand-note,
+  .small-cta {
+    display: none;
+  }
+
+  .hero {
+    width: min(100% - 28px, 1180px);
+    gap: 12px;
+    padding-top: 18px;
+    padding-bottom: 28px;
+  }
+
+  .hero-copy {
+    gap: 16px;
+  }
+
+  .hero-text {
+    font-size: 0.95rem;
+    line-height: 1.75;
+  }
+
+  .tagline {
+    font-size: 0.92rem;
+  }
+
+  .hero-illustration img {
+    width: 108%;
+    margin: -8% -5% -8% -3%;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 10vw, 3.15rem);
+    line-height: 1.34;
+  }
+
+  h2 {
+    font-size: clamp(1.45rem, 6.6vw, 2.15rem);
+    line-height: 1.45;
+  }
+
+  h3 {
+    font-size: 1.08rem;
+  }
+
+  .hero-buttons,
+  .contact-buttons {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .hero-points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .hero-points li {
+    padding: 7px 10px 8px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .section {
+    width: min(100% - 28px, 1120px);
+    padding: 46px 0;
+  }
+
+  .intro-band {
+    width: calc(100% - 28px);
+    margin-top: 0;
+    padding: 16px 16px;
+    text-align: left;
+    font-size: 0.92rem;
+  }
+
+  .section-title {
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .clinic-photos {
+    width: 100%;
+    padding-top: 34px;
+    padding-bottom: 28px;
+  }
+
+  .clinic-photos .section-title {
+    width: calc(100% - 28px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .clinic-photo-grid {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 0 14px 12px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .clinic-photo-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .clinic-photo-grid .photo-placeholder,
+  .clinic-photo-grid .photo-placeholder:nth-child(1) {
+    flex: 0 0 78vw;
+    min-height: 232px;
+    scroll-snap-align: center;
+  }
+
+  .soft-card {
+    min-height: auto;
+    padding: 20px 18px;
+  }
+
+  .card-icon {
+    width: 92px;
+    height: 92px;
+  }
+
+  .flow-list {
+    gap: 10px;
+  }
+
+  .flow-list li {
+    min-height: 64px;
+    padding: 12px 14px;
+  }
+
+  .flow-list li,
+  .requirements-table div {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .flow-list time {
+    width: 84px;
+    min-height: 40px;
+    font-size: 1.08rem;
+  }
+
+  .oncall {
+    width: min(100% - 28px, 1160px);
+    padding: 42px 18px;
+    border-radius: 34px;
+  }
+
+  .oncall-notes {
+    gap: 12px;
+  }
+
+  .oncall-notes article {
+    padding: 20px 18px;
+  }
+
+  .contact {
+    width: min(100% - 28px, 980px);
+    margin-top: 30px;
+    border-radius: 34px;
+  }
+
+  .director-photo,
+  .photo-placeholder {
+    min-height: 270px;
+  }
+
+  .director {
+    gap: 22px;
+  }
+
+  .director-copy {
+    gap: 12px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .mobile-cta {
+    display: grid;
+  }
+}
+
